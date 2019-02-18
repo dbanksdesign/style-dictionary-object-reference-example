@@ -1,0 +1,19 @@
+{
+  "source": ["node_tokens/**/*.js"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "files": [{
+        "destination": "dist/variables.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "json": {
+      "transformGroup": "web",
+      "files": [{
+        "destination": "dist/tokens.json",
+        "format": "json/nested"
+      }]
+    }
+  }
+}

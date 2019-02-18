@@ -1,0 +1,14 @@
+{
+  "name": "jan-sd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "style-dictionary build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^2.7.0"
+  }
+}
